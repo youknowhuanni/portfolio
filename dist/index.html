@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="application-name" content="Hi! I'm Anni" />
+    <meta name="apple-mobile-web-app-title" content="Hi! I'm Anni" />
+    <meta
+      name="description"
+      content="Anni Hu's CV and portfolio, spanning research, project coordination, festival operations, and creative work."
+    />
+    <link rel="icon" href="favicon.png?v=5" type="image/png" sizes="48x48" />
+    <link rel="icon" href="assets/logo-32.png?v=5" type="image/png" sizes="32x32" />
+    <link rel="icon" href="assets/logo-48.png?v=5" type="image/png" sizes="48x48" />
+    <link rel="shortcut icon" href="favicon.png?v=5" type="image/png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=5" sizes="180x180" />
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png?v=5" />
+    <link rel="manifest" href="site.webmanifest?v=5" />
+    <link rel="stylesheet" href="styles.css?v=16" />
+    <title>Hi! I'm Anni</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#about" data-i18n="skip">Skip to content</a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="site-menu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-menu" id="site-menu" aria-hidden="true" aria-label="Main navigation">
+      <div class="site-menu__main">
+        <div class="language-switch" role="group" aria-label="Language">
+          <button class="language-switch__button is-active" type="button" data-language="en" aria-pressed="true">EN</button>
+          <button class="language-switch__button" type="button" data-language="zh-CN" aria-pressed="false">CN</button>
+        </div>
+        <ul class="site-menu__links">
+          <li><a href="#about" data-i18n="navAbout">about me</a></li>
+          <li><a href="#education" data-i18n="navEducation">education</a></li>
+          <li><a href="#experiences" data-i18n="navExperiences">experiences</a></li>
+          <li><a href="#life" data-i18n="navLife">life</a></li>
+          <li><a href="#contact" data-i18n="navContact">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero__content">
+          <button class="hero-figure" type="button" aria-label="Play Anni's character animation">
+            <img
+              id="hero-frame"
+              src="assets/anni-frame-0.png?v=4"
+              alt="A hand-drawn Anni holding a cat"
+              width="465"
+              height="656"
+            />
+          </button>
+          <h1 id="hero-title" class="visually-hidden">Hi! I'm Anni</h1>
+          <div class="hero-lettering" aria-hidden="true">
+            <div class="hero-lettering__row hero-lettering__row--top">
+              <img class="hero-letter" src="assets/hero-title-h.png?v=2" alt="" draggable="false" />
+              <img class="hero-letter" src="assets/hero-title-i-top.png?v=2" alt="" draggable="false" />
+              <img class="hero-letter" src="assets/hero-title-bang.png?v=2" alt="" draggable="false" />
+              <img class="hero-letter" src="assets/hero-title-i-word.png?v=2" alt="" draggable="false" />
+              <img class="hero-letter" src="assets/hero-title-apostrophe.png?v=2" alt="" draggable="false" />
+              <img class="hero-letter" src="assets/hero-title-m.png?v=2" alt="" draggable="false" />
+            </div>
+            <div class="hero-lettering__row hero-lettering__row--bottom">
+              <img class="hero-letter" src="assets/hero-title-a.png?v=2" alt="" draggable="false" />
+              <img class="hero-letter" src="assets/hero-title-n-one.png?v=2" alt="" draggable="false" />
+              <img class="hero-letter" src="assets/hero-title-n-two.png?v=2" alt="" draggable="false" />
+              <img class="hero-letter" src="assets/hero-title-i-bottom.png?v=2" alt="" draggable="false" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="section__topline reveal">
+          <p data-i18n="aboutLabel">About me</p>
+          <p data-i18n="brussels">Brussels, Belgium</p>
+        </div>
+        <div class="about__grid">
+          <h2 id="about-title" class="display-title reveal" data-i18n="aboutTitle">Hi, I’m Anni</h2>
+          <div class="about__copy reveal">
+            <p data-i18n="aboutP1">
+              I graduated in September 2026 with a Master’s degree in Cultural Studies from KU Leuven. My experience
+              spans research for cultural projects, on-site support and coordination for theatre festivals, as well
+              as the planning and execution of cultural and creative projects.
+            </p>
+            <p data-i18n="aboutP2">
+              I enjoy learning about different cultures and observing how cultural and artistic projects gradually
+              take shape through collaboration, communication, and shared experiences, creating connections between
+              people along the way.
+            </p>
+            <p data-i18n="aboutP3">
+              Outside of work, I’m interested in art history, film, outdoor activities, and knitting. Recently, I’ve
+              also been exploring vibe coding, and I enjoy using AI to turn small ideas into tangible projects. I
+              also love travelling, exploring new places, and trying things I’ve never done before.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="education section section--dark" id="education" aria-labelledby="education-title">
+        <div class="section__topline reveal">
+          <h2 id="education-title" data-i18n="educationLabel">Education</h2>
+        </div>
+
+        <article class="degree degree--featured reveal">
+          <div class="degree__main">
+            <p class="institution" data-i18n="kuInstitution">KU LEUVEN / FACULTY OF ARTS</p>
+            <h3 data-i18n="masterDegree">Master of Cultural Studies</h3>
+            <p class="degree__date">09/2025 - 09/2026</p>
+            <p class="honour" data-i18n="honour">MAGNA CUM LAUDE / GREAT DISTINCTION</p>
+            <p data-i18n="leuven">Leuven, Belgium</p>
+
+            <div class="education-panels">
+              <section class="expand-panel" data-expand-panel>
+                <button
+                  class="expand-panel__trigger"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="thesis-content"
+                >
+                  <span data-i18n="thesisPanel">MASTER'S THESIS</span>
+                  <span class="expand-panel__icon" aria-hidden="true">+</span>
+                </button>
+                <div class="expand-panel__content" id="thesis-content">
+                  <div class="expand-panel__inner">
+                    <h4 data-i18n="thesisTitle">The Figure of Gui</h4>
+                    <p class="thesis__subtitle" data-i18n-html="thesisSubtitle">
+                      Gender, Time and Female Subjectivity in <em>Rouge</em> and <em>Woman Demon Human</em>
+                    </p>
+                    <p data-i18n-html="thesisSummary">
+                      A comparative study of Stanley Kwan’s <em>Rouge</em> (1987) and Huang Shuqin’s
+                      <em>Woman Demon Human</em> (1987), examining how the Chinese figure of <em>gui</em> (鬼)
+                      connects gender, memory, non-linear time, and female subjectivity. Through visual and narrative
+                      analysis, I compare Fleur—a ghost returning to modern Hong Kong—and Zhong Kui—a male
+                      supernatural figure performed by the actress Qiu Yun. The thesis explores how these different
+                      forms of <em>gui</em> allow women to negotiate gender roles and alternative life paths, while
+                      reflecting the distinct historical tensions of pre-handover Hong Kong and early Reform-era
+                      mainland China.
+                    </p>
+                    <ul class="keyword-list" aria-label="Thesis themes">
+                      <li data-i18n="tagCinema">Sinophone cinema</li>
+                      <li data-i18n="tagGender">Gender performativity</li>
+                      <li data-i18n="tagTime">Queer temporality</li>
+                      <li data-i18n="tagHauntology">Hauntology</li>
+                      <li data-i18n="tagSubjectivity">Female Subjectivity</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="expand-panel" data-expand-panel>
+                <button
+                  class="expand-panel__trigger"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="courses-content"
+                >
+                  <span data-i18n="coursesPanel">MAIN COURSES</span>
+                  <span class="expand-panel__icon" aria-hidden="true">+</span>
+                </button>
+                <div class="expand-panel__content" id="courses-content">
+                  <div class="expand-panel__inner">
+                    <ul class="course-list">
+                      <li data-i18n="coursePolicy">Cultural policy</li>
+                      <li data-i18n="coursePhoto">Photography and visual culture</li>
+                      <li data-i18n="courseFilm">Film and literature</li>
+                      <li data-i18n="courseCuratorial">Curatorial practice</li>
+                      <li data-i18n="courseMethods">Methods of cultural studies</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="degree reveal">
+          <div class="degree__main">
+            <p class="institution" data-i18n="changchunInstitution">CHANGCHUN UNIVERSITY OF SCIENCE AND TECHNOLOGY / FACULTY OF ARTS</p>
+            <h3 data-i18n="bachelorDegree">Bachelor of Teaching Chinese to Speakers of Other Languages</h3>
+            <p class="degree__date">09/2019 - 07/2023</p>
+            <p data-i18n="changchun">Changchun, China</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="experiences section" id="experiences" aria-labelledby="experiences-title">
+        <div class="section__topline reveal">
+          <h2 id="experiences-title" data-i18n="experiencesLabel">Experiences</h2>
+        </div>
+
+        <div class="experience-list">
+          <section class="experience-group" aria-labelledby="internship-title">
+            <h3 class="experience-group__title reveal" id="internship-title" data-i18n="internshipGroup">Internship</h3>
+
+            <article class="experience reveal">
+              <div class="experience__copy">
+                <h4>LOV2030</h4>
+                <p class="role" data-i18n="lovRole">Intern / European Capital of Culture</p>
+                <p class="experience__date">11/2025 - 06/2026</p>
+                <p class="experience__location" data-i18n="leuven">Leuven, Belgium</p>
+                <p data-i18n="lovBody">
+                  I supported the early development of cultural projects for LOV 2030, conducting research on artists
+                  and potential projects to inform programming and strategic discussions. I also helped organise and
+                  structure early-stage project portfolios, making research materials and project information clearer
+                  and more accessible for future development.
+                </p>
+              </div>
+              <div class="gallery" data-gallery>
+                <button class="gallery__button gallery__button--previous" type="button" aria-label="Previous photo" title="Previous photo">←</button>
+                <div class="gallery__viewport">
+                  <div class="gallery__track">
+                    <figure class="gallery__slide"><img src="assets/lov-1.webp?v=4" alt="LOV2030 staff badge" loading="lazy" /></figure>
+                    <figure class="gallery__slide"><img src="assets/lov-2.webp?v=4" alt="A LOV2030 community event" loading="lazy" /></figure>
+                    <figure class="gallery__slide"><img src="assets/lov-3.webp?v=4" alt="A LOV2030 summit presentation" loading="lazy" /></figure>
+                  </div>
+                </div>
+                <button class="gallery__button gallery__button--next" type="button" aria-label="Next photo" title="Next photo">→</button>
+              </div>
+            </article>
+
+            <article class="experience reveal">
+              <div class="experience__copy">
+                <h4 data-i18n="wuzhenTitle">11th Wuzhen Theatre Festival</h4>
+                <p class="role" data-i18n="wuzhenRole">Project & Liaison Intern / Culture Wuzhen Co., Ltd</p>
+                <p class="experience__date">06/2024 - 10/2024</p>
+                <p class="experience__location" data-i18n="wuzhenLocation">Wuzhen, China</p>
+                <p data-i18n="wuzhenBody">
+                  I supported the production and delivery of international performances at the 11th Wuzhen Theatre
+                  Festival. My work included production screening, regulatory procedures and script translation, as
+                  well as coordinating directly with international theatre companies. During the festival, I helped
+                  manage rehearsal schedules, media interviews and live performances, acting as a liaison between
+                  visiting artists and the local production team.
+                </p>
+              </div>
+              <div class="gallery" data-gallery>
+                <button class="gallery__button gallery__button--previous" type="button" aria-label="Previous photo" title="Previous photo">←</button>
+                <div class="gallery__viewport">
+                  <div class="gallery__track">
+                    <figure class="gallery__slide"><img src="assets/wuzhen-1.webp?v=4" alt="Wuzhen Theatre Festival team photo" loading="lazy" /></figure>
+                    <figure class="gallery__slide"><img src="assets/wuzhen-2.webp?v=4" alt="Festival banners along a Wuzhen street" loading="lazy" /></figure>
+                    <figure class="gallery__slide"><img src="assets/wuzhen-3.webp?v=4" alt="Wuzhen during the festival at night" loading="lazy" /></figure>
+                    <figure class="gallery__slide"><img src="assets/wuzhen-4.webp?v=4" alt="A theatre stage under work lights" loading="lazy" /></figure>
+                  </div>
+                </div>
+                <button class="gallery__button gallery__button--next" type="button" aria-label="Next photo" title="Next photo">→</button>
+              </div>
+            </article>
+          </section>
+
+          <section class="experience-group" aria-labelledby="personal-projects-title">
+            <h3 class="experience-group__title reveal" id="personal-projects-title" data-i18n="personalProjectsGroup">Personal Projects</h3>
+            <article class="experience reveal">
+              <div class="experience__copy">
+                <h4 data-i18n="storeTitle">Online Store</h4>
+                <p class="role" data-i18n="storeRole">Founder & Operator</p>
+                <p class="experience__date">10/2023 - 04/2024</p>
+                <p class="experience__location" data-i18n="storeLocation">Independent project / China</p>
+                <p data-i18n="storeBody">
+                  I founded and independently operated a small creative online store, taking products from initial
+                  design through production, branding, marketing and final launch. I developed a range of original
+                  products including keychains, stickers, photo albums and press-on nail art, while building the
+                  store’s visibility through social media content and campaigns on Rednote. The store achieved 300+
+                  sales in its first month.
+                </p>
+              </div>
+              <div class="gallery" data-gallery>
+                <button class="gallery__button gallery__button--previous" type="button" aria-label="Previous photo" title="Previous photo">←</button>
+                <div class="gallery__viewport">
+                  <div class="gallery__track">
+                    <figure class="gallery__slide"><img src="assets/shop-1.webp?v=4" alt="Cat-themed stationery products" loading="lazy" /></figure>
+                    <figure class="gallery__slide"><img src="assets/shop-2.webp?v=4" alt="Online store social media posts" loading="lazy" /></figure>
+                    <figure class="gallery__slide"><img src="assets/shop-3.webp?v=4" alt="Product launch posts for the online store" loading="lazy" /></figure>
+                    <figure class="gallery__slide"><img src="assets/shop-plush-front-back.webp?v=5" alt="Front and back of a handmade panda character plush" loading="lazy" /></figure>
+                  </div>
+                </div>
+                <button class="gallery__button gallery__button--next" type="button" aria-label="Next photo" title="Next photo">→</button>
+              </div>
+            </article>
+          </section>
+
+          <section class="experience-group" aria-labelledby="volunteer-title">
+            <h3 class="experience-group__title reveal" id="volunteer-title" data-i18n="volunteerGroup">Volunteer</h3>
+            <article class="experience reveal">
+              <div class="experience__copy">
+                <h4 data-i18n="aranyaTitle">Aranya Theatre Festival</h4>
+                <p class="role" data-i18n="aranyaRole">Volunteer</p>
+                <p class="experience__date">06/2025</p>
+                <p class="experience__location" data-i18n="aranyaLocation">Aranya, China</p>
+                <p data-i18n="aranyaBody">
+                  I worked across two performance venues during the 2025 Aranya Theatre Festival, supporting both
+                  pre-show preparation and live festival operations. I assisted with venue inspections, production
+                  resources and technical rehearsals before performances, and later managed front-of-house operations,
+                  audience flow and on-site coordination to help ensure smooth delivery throughout the festival.
+                </p>
+              </div>
+              <div class="gallery" data-gallery>
+                <button class="gallery__button gallery__button--previous" type="button" aria-label="Previous photo" title="Previous photo">←</button>
+                <div class="gallery__viewport">
+                  <div class="gallery__track">
+                    <figure class="gallery__slide"><img src="assets/aranya-1.webp?v=4" alt="A performance venue on the beach at Aranya" loading="lazy" /></figure>
+                    <figure class="gallery__slide"><img src="assets/aranya-2.webp?v=4" alt="An outdoor performance at Aranya" loading="lazy" /></figure>
+                    <figure class="gallery__slide"><img src="assets/aranya-3.webp?v=4" alt="The Aranya beach at night" loading="lazy" /></figure>
+                    <figure class="gallery__slide"><img src="assets/aranya-4.webp?v=4" alt="Coloured stage smoke at the Aranya Theatre Festival" loading="lazy" /></figure>
+                  </div>
+                </div>
+                <button class="gallery__button gallery__button--next" type="button" aria-label="Next photo" title="Next photo">→</button>
+              </div>
+            </article>
+          </section>
+        </div>
+      </section>
+
+      <section class="life section" id="life" aria-labelledby="life-title">
+        <div class="section__topline reveal">
+          <h2 id="life-title" data-i18n="lifeLabel">Life</h2>
+        </div>
+
+        <div class="life__inner reveal">
+          <div class="life-tabs" role="tablist" aria-label="Life chapters">
+            <button class="life-tab is-active" type="button" role="tab" aria-selected="true" data-life-category="timer" data-i18n="personalProjects">Personal Projects</button>
+            <button class="life-tab" type="button" role="tab" aria-selected="false" data-life-category="sketching" data-i18n="sketching">Sketching</button>
+            <button class="life-tab" type="button" role="tab" aria-selected="false" data-life-category="travel" data-i18n="travel">Traveling</button>
+            <button class="life-tab" type="button" role="tab" aria-selected="false" data-life-category="knitting" data-i18n="knitting">Knitting</button>
+          </div>
+
+          <div class="life-book" data-life-book>
+            <button class="book-control book-control--previous" type="button" aria-label="Previous page" title="Previous page">←</button>
+
+            <div class="book-stage" data-book-gallery aria-live="polite">
+              <div class="book-underlay">
+                <figure class="book-surface book-surface--left"><img id="book-base-image" src="assets/knitting-1.webp?v=4" alt="A hand-knitted grey beanie" /></figure>
+                <div class="book-surface book-surface--right"></div>
+              </div>
+              <div class="book-sheets" id="book-sheets"></div>
+            </div>
+
+            <section class="project-feature" data-book-timer hidden aria-labelledby="annitimer-title">
+              <div class="timer-app-window">
+                <div class="timer-app-window__bar"><span></span><span></span><span></span><strong>AnniTimer</strong></div>
+                <div class="timer-app-window__body">
+                  <div class="timer-duration">
+                    <div class="timer-duration__row">
+                      <label data-i18n="timerFocus">Focus</label>
+                      <div class="timer-inputs" aria-label="Focus duration">
+                        <input id="focus-hours" type="text" min="0" max="23" maxlength="2" value="00" inputmode="numeric" aria-label="Focus hours" />
+                        <span>:</span>
+                        <input id="focus-minutes" type="text" min="0" max="59" maxlength="2" value="45" inputmode="numeric" aria-label="Focus minutes" />
+                        <span>:</span>
+                        <input id="focus-seconds" type="text" min="0" max="59" maxlength="2" value="00" inputmode="numeric" aria-label="Focus seconds" />
+                      </div>
+                    </div>
+                    <div class="timer-duration__row">
+                      <label data-i18n="timerBreak">Break</label>
+                      <div class="timer-inputs" aria-label="Break duration">
+                        <input id="break-hours" type="text" min="0" max="23" maxlength="2" value="00" inputmode="numeric" aria-label="Break hours" />
+                        <span>:</span>
+                        <input id="break-minutes" type="text" min="0" max="59" maxlength="2" value="15" inputmode="numeric" aria-label="Break minutes" />
+                        <span>:</span>
+                        <input id="break-seconds" type="text" min="0" max="59" maxlength="2" value="00" inputmode="numeric" aria-label="Break seconds" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <p class="timer-display" id="timer-display" aria-live="polite">00:45:00</p>
+                  <p class="visually-hidden" id="timer-status" data-i18n="timerReady">Ready to focus</p>
+                  <div class="timer-actions">
+                    <button id="timer-start" type="button" data-i18n="timerStart">Start</button>
+                    <button id="timer-pause" type="button" data-i18n="timerPause">Pause</button>
+                    <button id="timer-reset" type="button" data-i18n="timerReset">Reset</button>
+                  </div>
+                  <section class="timer-calendar">
+                    <div class="timer-calendar__heading">
+                      <button class="calendar-nav" id="calendar-previous" type="button" aria-label="Previous month">←</button>
+                      <h3>
+                        <button id="calendar-month" type="button">September</button>
+                        <button id="calendar-year" type="button">2026</button>
+                      </h3>
+                      <p class="calendar-summary" id="calendar-summary" aria-live="polite"></p>
+                      <button class="calendar-nav" id="calendar-next" type="button" aria-label="Next month">→</button>
+                    </div>
+                    <div id="calendar-month-view">
+                      <div class="calendar-grid calendar-grid--month calendar-grid--weekdays" aria-hidden="true">
+                        <span data-i18n="mon">Mon</span><span data-i18n="tue">Tue</span><span data-i18n="wed">Wed</span>
+                        <span data-i18n="thu">Thu</span><span data-i18n="fri">Fri</span><span data-i18n="sat">Sat</span>
+                        <span data-i18n="sun">Sun</span>
+                        <span></span>
+                      </div>
+                      <div class="calendar-grid calendar-grid--month" id="timer-calendar-grid"></div>
+                    </div>
+                    <div class="calendar-year-view" id="calendar-year-view" hidden></div>
+                  </section>
+                </div>
+              </div>
+
+              <section class="expand-panel project-feature__panel" data-expand-panel>
+                <button
+                  class="expand-panel__trigger project-feature__trigger"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="annitimer-content"
+                >
+                  <span id="annitimer-title" data-i18n="anniTimerTitle">AnniTimer</span>
+                  <span class="expand-panel__icon" aria-hidden="true">+</span>
+                </button>
+                <div class="expand-panel__content" id="annitimer-content">
+                  <div class="expand-panel__inner project-feature__inner">
+                    <div class="project-feature__copy">
+                      <p data-i18n-html="anniTimerP1">
+                        I could never find a focus timer that I was completely happy with—some required payment, while
+                        others just didn’t quite fit my preferences in terms of interface or functionality. So I decided
+                        to build <strong>AnniTimer</strong> based on my own needs, both to track my focus time and, honestly,
+                        to push myself to study properly.
+                      </p>
+                      <p data-i18n-html="anniTimerP2">
+                        By default, AnniTimer uses a <strong>45-minute focus + 15-minute break</strong> structure, making one
+                        hour a full cycle, although the timing can also be adjusted freely. When a focus session ends, it
+                        plays an “oiiai” voice reminder and automatically starts the break timer. I designed it this way
+                        because normal notifications are very easy for me to ignore, and I also have a bad habit of telling
+                        myself, “just five more minutes,” only to end up focusing for too long and becoming less productive.
+                      </p>
+                      <p data-i18n="anniTimerP3">
+                        Once the break is over, a pop-up window automatically appears on top of all other windows to remind
+                        me that I have completed one full cycle.
+                      </p>
+                      <p data-i18n="anniTimerP4">
+                        The calendar section is divided into monthly and yearly views. The monthly view records daily focus
+                        time as well as weekly totals, while the yearly view marks days with focus records using a red dot
+                        and shows the total number of focus days for the year.
+                      </p>
+                      <p data-i18n-html="anniTimerP5">
+                        For me, it is a simple but genuinely useful <strong>self-project</strong>: I started with a small
+                        problem from my everyday life and turned the idea into a tool that I can actually use every day.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <dialog class="timer-popup" id="timer-popup" aria-labelledby="timer-popup-title">
+                <img id="timer-popup-image" src="assets/timer-focus.png?v=4" alt="" />
+                <h3 id="timer-popup-title">Focus Done</h3>
+                <p id="timer-popup-message">yeeeeeees!</p>
+                <button id="timer-popup-confirm" type="button">OK</button>
+              </dialog>
+            </section>
+
+            <button class="book-control book-control--next" type="button" aria-label="Next page" title="Next page">→</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="section__topline reveal">
+          <h2 id="contact-title" data-i18n="contactLabel">Contact</h2>
+        </div>
+        <div class="contact__details reveal">
+          <a class="email-link" href="mailto:AnniHu01@163.com">AnniHu01@163.com</a>
+          <a class="phone-link" href="tel:+32476930753" data-contact-phone>+32 476930753</a>
+          <p data-i18n="basedIn">Based in Brussels, Belgium</p>
+          <p data-i18n="availableLanguages">Mandarin (Native) · English (C1) · French (A1, currently learning)</p>
+          <p data-i18n="opportunities">Open to cultural, creative & project opportunities</p>
+          <div class="contact__links">
+            <a href="https://www.linkedin.com/in/anni-hu-22b4b9411" target="_blank" rel="noreferrer" data-i18n="linkedin">LinkedIn ↗</a>
+            <a href="assets/CV-Anni-Hu.pdf" download data-i18n="downloadCv">Download CV ↓</a>
+          </div>
+        </div>
+        <footer>
+          <a href="#home" data-i18n="backTop">Back to top</a>
+        </footer>
+      </section>
+    </main>
+
+    <audio id="timer-ring" src="assets/timer-ring.mp3?v=4" preload="auto"></audio>
+    <script src="app.js?v=12"></script>
+  </body>
+</html>

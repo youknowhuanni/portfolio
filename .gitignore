@@ -1,0 +1,6 @@
+.DS_Store
+.sites-runtime/
+work/
+outputs/
+apng-frames.jpg
+*.tar.gz
