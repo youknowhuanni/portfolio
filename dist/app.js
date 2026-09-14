@@ -11,11 +11,9 @@ const translations = {
     brussels: "Brussels, Belgium",
     aboutTitle: "Hi, I’m Anni",
     aboutP1:
-      "I graduated in September 2026 with a Master’s degree in Cultural Studies from KU Leuven. My experience spans research for cultural projects, on-site support and coordination for theatre festivals, as well as the planning and execution of cultural and creative projects.",
+      "I’m a Cultural Studies graduate based in Brussels, with experience across cultural research, theatre festivals, and creative project coordination. I’m interested in how ideas become shared cultural experiences through research, collaboration, and careful execution.",
     aboutP2:
-      "I enjoy learning about different cultures and observing how cultural and artistic projects gradually take shape through collaboration, communication, and shared experiences, creating connections between people along the way.",
-    aboutP3:
-      "Outside of work, I’m interested in art history, film, outdoor activities, and knitting. Recently, I’ve also been exploring vibe coding, and I enjoy using AI to turn small ideas into tangible projects. I also love travelling, exploring new places, and trying things I’ve never done before.",
+      "Outside work, I’m usually watching films, sketching, knitting, travelling, or turning small everyday problems into side projects with AI.",
     educationLabel: "Education",
     kuInstitution: "KU LEUVEN / FACULTY OF ARTS",
     masterDegree: "Master of Cultural Studies",
@@ -46,22 +44,22 @@ const translations = {
     volunteerGroup: "Volunteer",
     lovRole: "Intern / European Capital of Culture",
     lovBody:
-      "I supported the early development of cultural projects for LOV 2030, conducting research on artists and potential projects to inform programming and strategic discussions. I also helped organise and structure early-stage project portfolios, making research materials and project information clearer and more accessible for future development.",
+      "Researched artists and potential cultural projects for Leuven 2030, supporting early programming development and strategic discussions. I also helped structure project portfolios and research materials for future development.",
     wuzhenTitle: "11th Wuzhen Theatre Festival",
     wuzhenRole: "Project & Liaison Intern / Culture Wuzhen Co., Ltd",
     wuzhenLocation: "Wuzhen, China",
     wuzhenBody:
-      "I supported the production and delivery of international performances at the 11th Wuzhen Theatre Festival. My work included production screening, regulatory procedures and script translation, as well as coordinating directly with international theatre companies. During the festival, I helped manage rehearsal schedules, media interviews and live performances, acting as a liaison between visiting artists and the local production team.",
+      "Supported international productions from pre-festival preparation to live delivery, including production screening, regulatory procedures, script translation, and direct liaison with visiting theatre companies. During the festival, I coordinated rehearsals, media interviews, and performances between artists and the local production team.",
     aranyaTitle: "Aranya Theatre Festival",
     aranyaRole: "Volunteer",
     aranyaLocation: "Aranya, China",
     aranyaBody:
-      "I worked across two performance venues during the 2025 Aranya Theatre Festival, supporting both pre-show preparation and live festival operations. I assisted with venue inspections, production resources and technical rehearsals before performances, and later managed front-of-house operations, audience flow and on-site coordination to help ensure smooth delivery throughout the festival.",
+      "Supported two performance venues across pre-show preparation and live festival operations, including venue checks, technical rehearsals, audience flow, and on-site coordination.",
     storeTitle: "Online Store",
     storeRole: "Founder & Operator",
     storeLocation: "Independent project / China",
     storeBody:
-      "I founded and independently operated a small creative online store, taking products from initial design through production, branding, marketing and final launch. I developed a range of original products including keychains, stickers, photo albums and press-on nail art, while building the store’s visibility through social media content and campaigns on Rednote. The store achieved 300+ sales in its first month.",
+      "Founded and ran a small creative online store from product design to launch, covering production, branding, content, and marketing. I developed original keychains, stickers, photo albums, and press-on nail art, reaching 300+ sales in the first month.",
     lifeLabel: "Life",
     knitting: "Knitting",
     travel: "Traveling",
@@ -69,15 +67,7 @@ const translations = {
     personalProjects: "Personal Projects",
     anniTimerTitle: "AnniTimer",
     anniTimerP1:
-      "I could never find a focus timer that I was completely happy with—some required payment, while others just didn’t quite fit my preferences in terms of interface or functionality. So I decided to build <strong>AnniTimer</strong> based on my own needs, both to track my focus time and, honestly, to push myself to study properly.",
-    anniTimerP2:
-      "By default, AnniTimer uses a <strong>45-minute focus + 15-minute break</strong> structure, making one hour a full cycle, although the timing can also be adjusted freely. When a focus session ends, it plays an “oiiai” voice reminder and automatically starts the break timer. I designed it this way because normal notifications are very easy for me to ignore, and I also have a bad habit of telling myself, “just five more minutes,” only to end up focusing for too long and becoming less productive.",
-    anniTimerP3:
-      "Once the break is over, a pop-up window automatically appears on top of all other windows to remind me that I have completed one full cycle.",
-    anniTimerP4:
-      "The calendar section is divided into monthly and yearly views. The monthly view records daily focus time as well as weekly totals, while the yearly view marks days with focus records using a red dot and shows the total number of focus days for the year.",
-    anniTimerP5:
-      "For me, it is a simple but genuinely useful <strong>self-project</strong>: I started with a small problem from my everyday life and turned the idea into a tool that I can actually use every day.",
+      "I built AnniTimer because I couldn’t find a focus timer that matched the way I wanted to work. It gives a hard-to-ignore voice reminder, automatically starts breaks, and tracks focus across monthly and yearly views.",
     timerFocus: "Focus",
     timerBreak: "Break",
     timerReady: "Ready to focus",
@@ -125,11 +115,9 @@ const translations = {
     brussels: "布鲁塞尔，比利时",
     aboutTitle: "你好，我是安妮",
     aboutP1:
-      "于2026年9月毕业于鲁汶大学文化研究硕士项目。我的经历涵盖文化项目研究、戏剧节现场支持与协调，以及文创项目的策划与执行。",
+      "我是一名现居布鲁塞尔的文化研究毕业生，拥有文化研究、戏剧节及创意项目协调方面的经验。我关注想法如何通过研究、协作与细致执行，转化为人们共同参与的文化体验。",
     aboutP2:
-      "我喜欢了解不同文化，也喜欢观察文化与艺术项目如何通过协作、沟通与共同体验逐渐成形，并在人与人之间建立联结。",
-    aboutP3:
-      "工作之外，我对艺术史、电影、户外运动和编织感兴趣，最近也在接触 vibe coding，热衷于在 AI 的帮助下把一些小想法落地成形。我也喜欢旅行、探险，尝试新鲜事物。",
+      "工作之外，我通常会看电影、画画、编织、旅行，或借助 AI 将日常生活中的小问题变成个人项目。",
     educationLabel: "教育背景",
     kuInstitution: "鲁汶大学",
     masterDegree: "文化研究硕士",
@@ -160,22 +148,22 @@ const translations = {
     volunteerGroup: "志愿服务",
     lovRole: "实习生 / 2030年欧洲文化之都",
     lovBody:
-      "鲁汶被选为2030年的欧洲文化之都，项目名称为LOV2030。我参与了 LOV2030 的前期开发，围绕艺术家、艺术机构和潜在项目开展调研，为项目策划和战略讨论提供支撑。同时，我协助组织和梳理早期项目资料，使研究材料和项目信息更清晰、更便于后续开发使用。",
+      "为鲁汶 2030 调研艺术家及潜在文化项目，支持前期项目策划与战略讨论；同时协助梳理项目组合及研究资料，为后续发展奠定基础。",
     wuzhenTitle: "第十一届乌镇戏剧节",
     wuzhenRole: "项目执行实习生 / 文化乌镇股份有限公司",
     wuzhenLocation: "乌镇，中国",
     wuzhenBody:
-      "我支持了第十一届乌镇戏剧节“特邀剧目”板块的制作与落地，工作包括前期的剧目筛选、报批流程和剧本翻译，以及后期与国外剧团的对接。戏剧节期间，我协助管理排练日程、媒体采访和现场演出，担任来访艺术家与本地制作团队之间的联络人。",
+      "从戏剧节前期筹备到现场执行，全程支持国际演出项目，包括项目筛选、监管手续、剧本翻译，以及与来访剧团直接沟通。戏剧节期间，我在艺术家与本地制作团队之间协调排练、媒体采访和演出。",
     aranyaTitle: "阿那亚戏剧节",
     aranyaRole: "志愿者",
     aranyaLocation: "阿那亚，中国",
     aranyaBody:
-      "在 2025 阿那亚戏剧节期间，我支持演出前准备和戏剧节现场运营。演出前，我协助场地检查、制作资源协调和技术彩排；之后负责前厅运营、观众动线和现场协调，协助确保整个戏剧节顺利运行。",
+      "在演出前期准备和戏剧节现场运营中支持两个演出场地，包括场地检查、技术彩排、观众动线及现场协调。",
     storeTitle: "文创网店",
     storeRole: "创办人与运营者",
     storeLocation: "独立项目 / 中国",
     storeBody:
-      "我创立并独立运营了一家小型文创网店，负责产品从初始设计到生产、品牌、营销和最终上线的全过程。我开发了一系列原创产品，包括钥匙扣、贴纸、相册和穿戴甲，并通过小红书推广。店铺首月销量超过 300 单。",
+      "从产品设计到上线，创立并运营一家小型创意网店，负责生产、品牌、内容与营销。独立开发钥匙扣、贴纸、相册和穿戴甲等产品，首月销量超过 300 件。",
     lifeLabel: "生活",
     knitting: "编织",
     travel: "旅行",
@@ -183,14 +171,7 @@ const translations = {
     personalProjects: "个人项目",
     anniTimerTitle: "AnniTimer",
     anniTimerP1:
-      "因为一直没有找到完全满意的专注计时软件——要么需要付费，要么界面和功能不太符合我的习惯——所以我干脆根据自己的需求做了一款 <strong>AnniTimer</strong>，用来记录专注时间，也顺便逼自己认真学习。",
-    anniTimerP2:
-      "AnniTimer 默认设置为 <strong>45 分钟专注 + 15 分钟休息</strong>，1 小时为一个 cycle，也可以自行修改时间。专注结束后会播放 “oiiai” 语音提醒，并自动开始休息计时。因为普通提醒很容易被我忽略，而我又很容易告诉自己“再学五分钟”，结果一不小心专注太久，效率反而下降。",
-    anniTimerP3: "休息结束后，软件会自动弹出置于最前方的窗口，提醒我已经完成一个 cycle。",
-    anniTimerP4:
-      "日历界面分为月度和年度两个部分：月度页面会记录每天以及每周的专注时长；年度页面中，有专注记录的日期会用红点标记，并显示当年的累计专注天数。",
-    anniTimerP5:
-      "对我来说，它算是一个很简单但很实用的 <strong>self-project</strong>：从自己的真实需求出发，把一个小想法真正做成了可以每天使用的工具。",
+      "因为一直找不到符合自己工作方式的专注计时器，我制作了 AnniTimer。它会通过难以忽略的语音提醒提示专注结束，自动开始休息，并通过月度和年度视图记录专注情况。",
     timerFocus: "专注",
     timerBreak: "休息",
     timerReady: "可以开始专注",
