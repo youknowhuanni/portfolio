@@ -680,28 +680,6 @@ img {
   line-height: 1;
 }
 
-.pagination-arrow {
-  display: block;
-  width: 22px;
-  height: 22px;
-  flex: 0 0 auto;
-  background: currentColor;
-  -webkit-mask: url("assets/page-arrow.png?v=1") center / contain no-repeat;
-  mask: url("assets/page-arrow.png?v=1") center / contain no-repeat;
-}
-
-.gallery__button--previous .pagination-arrow,
-.book-control--previous .pagination-arrow,
-#calendar-previous .pagination-arrow {
-  transform: rotate(-90deg);
-}
-
-.gallery__button--next .pagination-arrow,
-.book-control--next .pagination-arrow,
-#calendar-next .pagination-arrow {
-  transform: rotate(90deg);
-}
-
 .gallery__button {
   position: absolute;
   top: 50%;
@@ -837,14 +815,6 @@ img {
 .book-control--next {
   grid-column: 3;
   grid-row: 1;
-}
-
-.life-book > .book-control--previous > .pagination-arrow {
-  rotate: -90deg;
-}
-
-.life-book > .book-control--next > .pagination-arrow {
-  rotate: 90deg;
 }
 
 .book-control:disabled {
@@ -1620,12 +1590,6 @@ footer p {
     width: 32px;
     height: 32px;
     font-size: 1rem;
-  }
-
-  .book-control .pagination-arrow,
-  .calendar-nav .pagination-arrow {
-    width: 17px;
-    height: 17px;
   }
 
   .book-surface img,
